@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirm Your Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0; padding:0; background-color:#000;">
+  <!-- full-width wrapper -->
+  <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#000">
+    <tr>
+      <td align="center">
+        <!-- central container -->
+        <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%;">
+          
+          <!-- logo -->
+          <tr>
+            <td align="center" style="padding:40px 0 20px;">
+              <img src="%%LOGO_URL%%" alt="Padelize" width="120" 
+                   style="display:block; border:0; outline:none; text-decoration:none;">
+            </td>
+          </tr>
+          
+          <!-- card -->
+          <tr>
+            <td bgcolor="#1E1E1E" style="border-radius:8px; padding:48px 48px 40px;">
+
+              <!-- title -->
+              <h1 style="margin:0 0 24px; font-family:Arial,sans-serif; font-size:28px; font-weight:700; color:#fff; line-height:1.2;">
+                Confirm your email
+              </h1>
+
+              <!-- greeting -->
+              <p style="margin:0 0 16px; font-family:Arial,sans-serif; font-size:16px; color:#ddd; line-height:1.5;">
+                Hi [Customer Name],
+              </p>
+
+              <!-- copy -->
+              <p style="margin:0 0 32px; font-family:Arial,sans-serif; font-size:16px; color:#ddd; line-height:1.5;">
+                Just one last step to increase your account security—please confirm your email address.
+              </p>
+
+              <!-- CTA -->
+              <table cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 32px;">
+                <tr>
+                  <td align="center">
+                    <a href="{{confirm_url}}" 
+                       style="display:inline-block; padding:14px 28px; font-family:Arial,sans-serif; font-size:16px; font-weight:600; color:#fff; background-color:#377DFF; border-radius:6px; text-decoration:none;">
+                      Confirm Email Address
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- badges -->
+              <table cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;">
+                <tr>
+                  <td style="padding:0 10px;">
+                    <a href="{{app_store_url}}">
+                      <img src="%%APP_STORE_BADGE_URL%%" alt="App Store" width="120" 
+                           style="display:block; border:0; outline:none; text-decoration:none;">
+                    </a>
+                  </td>
+                  <td style="padding:0 10px;">
+                    <a href="{{play_store_url}}">
+                      <img src="%%PLAY_STORE_BADGE_URL%%" alt="Google Play" width="120" 
+                           style="display:block; border:0; outline:none; text-decoration:none;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- footer -->
+          <tr>
+            <td align="center" style="padding:40px 0;">
+              <!-- footer logo -->
+              <img src="%%FOOTER_LOGO_URL%%" alt="Padelize" width="100" 
+                   style="display:block; margin-bottom:16px; border:0; outline:none; text-decoration:none;">
+
+              <!-- nav links -->
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:14px; line-height:20px; color:#999;">
+                <a href="{{website_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Website</a>|
+                <a href="{{twitter_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Twitter</a>|
+                <a href="{{instagram_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Instagram</a>
+              </p>
+
+              <!-- support text -->
+              <p style="margin:16px 0 4px; font-family:Arial,sans-serif; font-size:12px; line-height:18px; color:#777;">
+                If you have questions or need help, 
+                <a href="mailto:support@padelize.com" style="color:#fff; text-decoration:underline;">contact our support team</a>.
+              </p>
+
+              <!-- address -->
+              <p style="margin:4px 0 16px; font-family:Arial,sans-serif; font-size:12px; line-height:18px; color:#777;">
+                Padelize Inc., 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA
+              </p>
+
+              <!-- legal -->
+              <p style="margin:0; font-family:Arial,sans-serif; font-size:12px; line-height:18px; color:#777;">
+                <a href="{{terms_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Terms &amp; Conditions</a>|
+                <a href="{{privacy_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Privacy Policy</a>|
+                <a href="{{contact_url}}" style="color:#fff; text-decoration:none; margin:0 8px;">Contact Us</a>
+              </p>
+
+              <!-- unsubscribe -->
+              <p style="margin:16px 0 0; font-family:Arial,sans-serif; font-size:12px; line-height:18px; color:#777;">
+                Sent to name@domain.com. If you’d rather not receive these, 
+                <a href="{{unsubscribe_url}}" style="color:#fff; text-decoration:underline;">unsubscribe</a>.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
